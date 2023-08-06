@@ -1,1 +1,1 @@
-#Odin project foundations course etch-a-sketch project
+# Odin project foundations course etch-a-sketch project
