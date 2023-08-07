@@ -49,8 +49,6 @@ function color() {
 }
 
 function clear() {
-  const all = grid.childNodes;
-  for (let i = 0; i < all.length; i++) {
-    all[i].backgroundColor = 'white';
-  }
+  const all = document.querySelectorAll('.block');
+  all.forEach((item) => {item.style.backgroundColor = 'white'})
 }
