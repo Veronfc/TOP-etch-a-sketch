@@ -1,6 +1,6 @@
 body {
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -8,7 +8,12 @@ body {
   height: 100vh;
 }
 
-#generate {
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
   font-family: 'ubuntu';
   font-size: 15px;
   padding: 5px 10px;
@@ -17,18 +22,15 @@ body {
   margin-bottom: 20px;
 }
 
+#clear {
+  margin-left: 10px;
+  display: none;
+}
+
 #grid {
   display: flex;
   flex-wrap: wrap;
   width: 650px;
   height: 650px;
-  border: 1px solid white;
-}
-
-.block {
-  background-color: white;
-}
-
-.block:hover {
-  background-color: grey;
+  border: 1px solid black;
 }
