@@ -1,1 +1,1 @@
-# Odin foundations course project
+# The Odin Project foundations course project
