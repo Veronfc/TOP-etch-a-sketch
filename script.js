@@ -26,14 +26,14 @@ function draw(squares) {
 function generate() {
   grid.innerHTML = '';
 
-  let squares = Math.floor(prompt('Enter an integer from 1 to 100:'));
+  let squares = Math.floor(prompt('Enter an integer from 1 to 1000:'));
 
   if (!Number.isInteger(squares)){
     squares = 64;
   }
 
-  if (squares > 100) {
-    squares = 100;
+  if (squares > 1000) {
+    squares = 1000;
   } 
   else if (squares < 0){
     squares = 1;
